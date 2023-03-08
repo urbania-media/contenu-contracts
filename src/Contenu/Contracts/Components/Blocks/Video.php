@@ -7,5 +7,5 @@ use Contenu\Contracts\Medias\Video as MediasVideo;
 
 interface Video extends Block
 {
-    public function video(): ?MediasVideo;
+    public function media(): ?MediasVideo;
 }

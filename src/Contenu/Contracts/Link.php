@@ -1,12 +1,12 @@
 <?php
 
-namespace Contenu\Contracts\Concepts;
+namespace Contenu\Contracts;
 
 interface Link
 {
     public function url(): string;
 
-    public function label(): ?string;
-
     public function external(): ?bool;
+
+    public function target(): ?string;
 }

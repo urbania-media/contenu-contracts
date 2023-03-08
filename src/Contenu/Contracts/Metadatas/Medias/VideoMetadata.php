@@ -2,11 +2,7 @@
 
 namespace Contenu\Contracts\Metadatas\Medias;
 
-interface VideoMetadata extends MediaMetadata
+interface VideoMetadata extends VisualMetadata
 {
-    public function width(): int;
-
-    public function height(): int;
-
     public function duration(): float;
 }

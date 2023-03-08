@@ -4,7 +4,7 @@ namespace Contenu\Contracts\Components\Blocks;
 
 use Contenu\Contracts\Components\Block;
 
-interface Embed extends Block
+interface OrderedList extends Block
 {
-    public function embed();
+    public function items(): ?iterable;
 }

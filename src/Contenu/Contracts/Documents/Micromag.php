@@ -2,6 +2,7 @@
 
 namespace Contenu\Contracts\Documents;
 
+use Contenu\Contracts\Document;
 use Contenu\Contracts\Metadatas\Documents\MicromagMetadata;
 
 interface Micromag extends Document

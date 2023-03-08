@@ -1,6 +1,6 @@
 <?php
 
-namespace Contenu\Contracts\Medias;
+namespace Contenu\Contracts;
 
 use Contenu\Contracts\Medias\Image;
 use Contenu\Contracts\Metadatas\Medias\MediaMetadata;

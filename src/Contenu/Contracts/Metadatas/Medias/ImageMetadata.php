@@ -2,9 +2,6 @@
 
 namespace Contenu\Contracts\Metadatas\Medias;
 
-interface ImageMetadata extends MediaMetadata
+interface ImageMetadata extends VisualMetadata
 {
-    public function width(): int;
-
-    public function height(): int;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Contenu\Contracts\Documents;
+namespace Contenu\Contracts;
 
 use Contenu\Contracts\Metadatas\Documents\DocumentMetadata;
 

@@ -2,6 +2,7 @@
 
 namespace Contenu\Contracts\Documents;
 
+use Contenu\Contracts\Document;
 use Contenu\Contracts\Metadatas\Documents\PageMetadata;
 
 interface Page extends Document
