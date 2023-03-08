@@ -1,0 +1,43 @@
+{
+    "name": "contenu/contracts",
+    "description": "",
+    "keywords": [],
+    "homepage": "http://github.com/Folkloreatelier",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Folklore",
+            "email": "info@atelierfolklore.ca",
+            "homepage": "http://atelierfolklore.ca"
+        },
+        {
+            "name": "David Mongeau-Petitpas",
+            "email": "dmp@atelierfolklore.ca",
+            "homepage": "http://mongo.ca",
+            "role": "Developer"
+        },
+        {
+            "name": "Nicolas Roy-Bourdages",
+            "email": "nrb@atelierfolklore.ca",
+            "role": "Developer"
+        },
+        {
+            "name": "Alexandre Chouinard",
+            "email": "ac@atelierfolklore.ca",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-0": {
+            "Contenu\\Contracts": "src/"
+        }
+    },
+    "autoload-dev": {},
+    "extra": {},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
