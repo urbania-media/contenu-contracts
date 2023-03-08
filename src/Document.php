@@ -8,6 +8,8 @@ interface Document
 {
     public function title(): string;
 
+    public function subtitle(): ?string;
+
     public function description(): ?string;
 
     public function metadata(): DocumentMetadata;
