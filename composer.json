@@ -32,8 +32,8 @@
     },
     "require-dev": {},
     "autoload": {
-        "psr-0": {
-            "Contenu\\Contracts": "src/"
+        "psr-4": {
+            "Contenu\\Contracts\\": "src/"
         }
     },
     "autoload-dev": {},
