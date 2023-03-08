@@ -2,10 +2,9 @@
 
 namespace Contenu\Contracts\Components\Blocks;
 
-use Contenu\Contracts\Components\Block;
 use Contenu\Contracts\Medias\Video as MediasVideo;
 
-interface Video extends Block
+interface Video extends Media
 {
     public function media(): ?MediasVideo;
 }
