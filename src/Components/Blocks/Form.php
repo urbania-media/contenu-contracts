@@ -4,7 +4,9 @@ namespace Contenu\Contracts\Components\Blocks;
 
 use Contenu\Contracts\Components\Block;
 
-interface Images extends Block
+interface Form extends Block
 {
-    public function items(): ?iterable;
+    public function fields(): ?iterable;
+
+    // URL?
 }
