@@ -6,7 +6,11 @@ use Contenu\Contracts\Metadatas\Documents\DocumentMetadata;
 
 interface Document
 {
+    public function type(): string;
+
     public function title(): string;
+
+    public function subtitle(): ?string;
 
     public function description(): ?string;
 
