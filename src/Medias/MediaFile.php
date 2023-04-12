@@ -2,7 +2,7 @@
 
 namespace Contenu\Contracts\Medias;
 
-interface File extends Source
+interface MediaFile extends Source
 {
     public function handle(): ?string;
 
