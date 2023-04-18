@@ -4,9 +4,10 @@ namespace Contenu\Contracts;
 
 interface Taxonomy
 {
-    public function type(): string;
-
     public function id(): string;
 
-    public function label(): string;
+    public function label(?string $locale = null): string;
+
+    public function type(): ?string;
+
 }
