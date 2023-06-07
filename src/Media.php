@@ -9,7 +9,7 @@ interface Media
 {
     public function type(): string;
 
-    public function url(): ?string;
+    public function url(): string;
 
     public function metadata(): MediaMetadata;
 
