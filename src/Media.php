@@ -11,7 +11,7 @@ interface Media
 
     public function url(): string;
 
-    public function name(): ?string;
+    public function name(): string;
 
     public function metadata(): MediaMetadata;
 
