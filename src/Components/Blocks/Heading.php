@@ -4,7 +4,7 @@ namespace Contenu\Contracts\Components\Blocks;
 
 use Contenu\Contracts\Components\Block;
 
-interface Title extends Block
+interface Heading extends Block
 {
     public function size(): ?int;
 
