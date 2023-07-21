@@ -10,5 +10,5 @@ interface Embed extends Source
 
     public function iframeUrl(): ?string;
 
-    public function metadata();
+    public function html(): ?string;
 }
