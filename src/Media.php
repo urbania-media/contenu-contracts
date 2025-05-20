@@ -4,6 +4,7 @@ namespace Contenu\Contracts;
 
 use Contenu\Contracts\Medias\Image;
 use Contenu\Contracts\Metadatas\Medias\MediaMetadata;
+use Traversable;
 
 interface Media
 {
@@ -17,5 +18,5 @@ interface Media
 
     public function thumbnail(): ?Image;
 
-    public function sources();
+    public function sources(): ?Traversable;
 }

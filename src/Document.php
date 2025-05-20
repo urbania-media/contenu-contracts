@@ -3,6 +3,7 @@
 namespace Contenu\Contracts;
 
 use Contenu\Contracts\Metadatas\Documents\DocumentMetadata;
+use Traversable;
 
 interface Document
 {
@@ -16,5 +17,5 @@ interface Document
 
     public function metadata(): DocumentMetadata;
 
-    public function components();
+    public function components(): ?Traversable;
 }
