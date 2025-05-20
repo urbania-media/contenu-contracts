@@ -7,7 +7,7 @@ use Contenu\Contracts\Medias\Image;
 
 interface Card extends Block
 {
-    public function image(): Image;
+    public function image(): ?Image;
 
     public function title(): ?string;
 
