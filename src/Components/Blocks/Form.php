@@ -6,7 +6,7 @@ use Contenu\Contracts\Components\Block;
 
 interface Form extends Block
 {
-    public function fields();
+    public function fields(): ?iterable;
 
     // URL?
 }

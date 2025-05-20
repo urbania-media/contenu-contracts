@@ -18,5 +18,5 @@ interface Media
 
     public function thumbnail(): ?Image;
 
-    public function sources(): ?Traversable;
+    public function sources(): ?iterable;
 }

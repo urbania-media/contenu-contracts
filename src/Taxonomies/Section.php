@@ -8,5 +8,5 @@ interface Section extends Taxonomy
 {
     public function parent(): ?Section;
 
-    public function children();
+    public function children(): ?iterable;
 }

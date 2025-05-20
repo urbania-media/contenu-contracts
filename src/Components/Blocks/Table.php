@@ -6,7 +6,7 @@ use Contenu\Contracts\Components\Block;
 
 interface Table extends Block
 {
-    public function columns();
+    public function columns(): ?iterable;
 
-    public function rows();
+    public function rows(): ?iterable;
 }

@@ -6,15 +6,15 @@ use DateTime;
 
 interface DocumentMetadata
 {
-    public function tags();
+    public function tags(): ?iterable;
 
-    public function categories();
+    public function categories(): ?iterable;
 
-    public function sections();
+    public function sections(): ?iterable;
 
-    public function credits();
+    public function credits(): ?iterable;
 
-    public function locations();
+    public function locations(): ?iterable;
 
     public function createdAt(): ?DateTime;
 

@@ -6,5 +6,5 @@ use Contenu\Contracts\Components\Block;
 
 interface Images extends Block
 {
-    public function items();
+    public function items(): ?iterable;
 }

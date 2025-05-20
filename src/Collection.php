@@ -8,5 +8,5 @@ interface Collection
 {
     public function title(): string;
 
-    public function items(): ?Traversable;
+    public function items(): iterable;
 }
