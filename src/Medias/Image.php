@@ -8,5 +8,5 @@ interface Image extends Visual
 {
     public function metadata(): ImageMetadata;
 
-    public function sizes(): ?iterable;
+    public function sizes();
 }

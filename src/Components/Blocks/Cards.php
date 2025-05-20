@@ -6,5 +6,5 @@ use Contenu\Contracts\Components\Block;
 
 interface Cards extends Block
 {
-    public function items(): ?iterable;
+    public function items();
 }

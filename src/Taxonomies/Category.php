@@ -8,5 +8,5 @@ interface Category extends Taxonomy
 {
     public function parent(): ?Category;
 
-    public function children(): ?iterable;
+    public function children();
 }

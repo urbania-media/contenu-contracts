@@ -16,5 +16,5 @@ interface Document
 
     public function metadata(): DocumentMetadata;
 
-    public function components(): ?iterable;
+    public function components();
 }
