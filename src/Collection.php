@@ -8,5 +8,5 @@ interface Collection
 {
     public function title(): string;
 
-    public function items(): iterable;
+    public function items(): ?iterable;
 }
